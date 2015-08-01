@@ -35,6 +35,10 @@ ul, ol, p {
   margin: 0 0 1.3rem;
 }
 
+a {
+  color: #000;
+}
+
 .masthead {
   background: url("../img/stripes.svg") left top / 1px 184px repeat-x #bebebe;
 
@@ -120,8 +124,8 @@ ul, ol, p {
 section {
   padding: 1.3rem 0;
 
-  border-bottom: 2px solid #ccc;
-  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #afafaf;
+  border-top: 2px solid #afafaf;
 }
 
 section:last-child {
@@ -245,7 +249,7 @@ section:last-child {
   overflow: hidden;
   padding: 10px;
 
-  background-color: #e2e2e2;
+  background-color: #afafaf;
 
   font-size: .75rem;
 }
