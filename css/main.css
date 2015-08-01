@@ -72,7 +72,8 @@ ul, ol, p {
   float: right;
 }
 
-.topnav a {
+.topnav a,
+.btn {
   display: inline-block;
   padding: .5em .8em;
 
@@ -88,7 +89,8 @@ ul, ol, p {
   text-transform: uppercase;
 }
 
-.topnav a:hover {
+.topnav a:hover,
+.btn:hover {
   background-color: #960062;
   color: #fff;
 }
@@ -166,19 +168,15 @@ section:last-child {
 .btn {
   display: block;
   margin: 1.3rem 0;
-  padding: .5em;
 
-  background-color: #ccc;
-  border: 2px solid #666;
-
-  color: #fff;
-  font-size: 1.125rem;
   text-align: center;
-  text-decoration: none;
+  text-transform: none;
 }
 
 .btn strong {
   display: block;
+
+  color: #fff;
 }
 
 .powers {
@@ -203,7 +201,7 @@ section:last-child {
   margin: 0;
   padding: 0;
 
-  border-top: 2px solid #666;
+  border-top: 2px solid #960062;
 }
 
 .nav li {
@@ -213,16 +211,34 @@ section:last-child {
 .nav a {
   display: block;
   padding: .5em .8em;
+  position: relative;
 
-  background-color: #ccc;
-  border-bottom: 2px solid #666;
+  background-color: #bd027d;
+  border-bottom: 2px solid #960062;
 
-  color: #333;
+  color: #eccee2;
+  font-family: "PT Sans Narrow",sans-serif;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .nav a:hover {
-  background-color: #999;
+  background-color: #960062;
+  color: #fff;
+}
+
+.nav-icon {
+  height: 12px;
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 6px);
+  width: 12px;
+
+  background: url("../img/triangle.svg") left top / 12px auto no-repeat;
+}
+
+.nav a:hover .nav-icon {
+  background-position: left bottom;
 }
 
 .footer {
