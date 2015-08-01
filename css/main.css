@@ -146,3 +146,21 @@ section {
 .btn strong {
   display: block;
 }
+
+.powers {
+  padding-left: 50px;
+}
+
+.powers dt {
+  position: relative;
+}
+
+.powers dd {
+  margin: 0 0 1.3rem;
+}
+
+.powers img {
+  left: -50px;
+  position: absolute;
+  width: 45px;
+}
