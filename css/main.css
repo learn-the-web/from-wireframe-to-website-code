@@ -151,6 +151,10 @@ section:last-child {
   margin: 0;
   padding: 0;
   position: relative;
+
+  background-color: #ccc;
+  border: 2px solid #afafaf;
+  border-radius: 6px;
 }
 
 .img-box-img {
@@ -159,12 +163,12 @@ section:last-child {
 }
 
 .img-box-text {
-  bottom: 1.3rem;
+  bottom: .8rem;
   padding: .5rem;
   position: absolute;
   width: 100%;
 
-  background-color: rgba(0,0,0,.2);
+  background-color: rgba(50,50,50,.1);
 
   text-align: center;
 }
