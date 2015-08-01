@@ -128,3 +128,21 @@ section {
 
   text-align: center;
 }
+
+.btn {
+  display: block;
+  margin: 1.3rem 0;
+  padding: .5em;
+
+  background-color: #ccc;
+  border: 2px solid #666;
+
+  color: #fff;
+  font-size: 1.125rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn strong {
+  display: block;
+}
