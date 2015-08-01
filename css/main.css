@@ -114,6 +114,7 @@ a {
 }
 
 .main {
+  display: block;
   padding: 1.3rem 10px 0;
 }
 
