@@ -36,7 +36,7 @@ ul, ol, p {
 }
 
 .masthead {
-  background-color: #e2e2e2;
+  background: url("../img/stripes.svg") left top / 1px 184px repeat-x #bebebe;
 
   text-align: center;
 }
@@ -45,6 +45,8 @@ ul, ol, p {
   display: block;
   margin: 0 auto;
   width: 150px;
+
+  background-color: #bd027d;
 }
 
 .logo-img {
@@ -102,7 +104,7 @@ ul, ol, p {
 }
 
 .nav-btn:hover {
-  background-position: left bottom;
+  background-position: left -42px;
 }
 
 .main {
