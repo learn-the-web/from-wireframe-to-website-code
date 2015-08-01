@@ -78,7 +78,7 @@ ul, ol, p {
 }
 
 .main {
-  padding: 1.3rem 10px;
+  padding: 1.3rem 10px 0;
 }
 
 .intro {
@@ -90,6 +90,10 @@ section {
 
   border-bottom: 2px solid #ccc;
   border-top: 2px solid #ccc;
+}
+
+section:last-child {
+  border-bottom: 0;
 }
 
 .img-boxes {
@@ -163,4 +167,48 @@ section {
   left: -50px;
   position: absolute;
   width: 45px;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+
+  border-top: 2px solid #666;
+}
+
+.nav li {
+
+}
+
+.nav a {
+  display: block;
+  padding: .5em .8em;
+
+  background-color: #ccc;
+  border-bottom: 2px solid #666;
+
+  color: #333;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #999;
+}
+
+.footer {
+  overflow: hidden;
+  padding: 10px;
+
+  background-color: #e2e2e2;
+
+  font-size: .75rem;
+}
+
+.copyright {
+  float: left;
+  margin-bottom: 0;
+}
+
+.terms {
+  float: right;
 }
