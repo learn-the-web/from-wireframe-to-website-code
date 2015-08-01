@@ -266,3 +266,21 @@ section:last-child {
 .terms {
   float: right;
 }
+
+.super-img {
+  position: relative;
+}
+
+.super-amoeba {
+  display: block;
+  max-width: 15em;
+  width: 70%;
+}
+
+.super-power {
+  bottom: 0;
+  max-width: 12em;
+  position: absolute;
+  right: 10px;
+  width: 60%;
+}
